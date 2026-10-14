@@ -113,3 +113,7 @@ npm start      # run compiled dist/app.js
 ```
 
 The service currently allows CORS with the default `cors()` configuration, exposes status details publicly, and does not have booking or payment persistence. Input validation, rate limiting, restricted CORS, production error handling, and a serverless-compatible deployment path should be addressed before using this API for real customers. A `vercel.json` file exists, but the current startup path opens a listener after MongoDB connection, so deployment behavior needs separate verification.
+
+## License
+
+Original code and documentation authored by Jakkarin Promsee are licensed under the [MIT License](LICENSE). Third-party code, assets, datasets, and other materials are not covered by this license; their original terms apply.
